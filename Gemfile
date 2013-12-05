@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 1.2'
 # Postgres for DB
 gem 'pg'
 
+# To use LESS
+gem 'less-rails'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
