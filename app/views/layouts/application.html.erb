@@ -36,9 +36,17 @@
 
   <%= csrf_meta_tags %>
 </head>
+
 <body class="home">
 
-<%= yield %>
-
+    <!-- Wrap Start -->
+    <div class="wrap">
+      <!-- Header Start -->
+      <%= render 'shared/header/header'%>
+      <!-- Header End -->
+      <%= yield %>
+    </div>
+    <!-- Wrap End -->
 </body>
+
 </html>
